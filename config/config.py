@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("31465200", ""))
+API_HASH = getenv("e60f89caed7d2861ecddf0e5c54159b5")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8595644382:AAGMUM7G4OAQtdQ7ubVy4YjzTOiZuMqYe2k")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://crazyjaatabhi_86: crazyjaatabhi_86@crazyjaatabhi.wbikzkk.mongodb.net/?appName=crazyjaatabhi", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1003354979541", ""))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("8438029944", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "https://t.me/qtkitten_86", None
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQHgHvAAC7YZpSIeTNizFzpV5nzR2O7b6hJ02Cf5ErqCqnI6_8hIHCHEiqUGLNmrJ1uvB-J2oaZudT8HjGKZIi4J43QI5lePe4BcGPI7T_2Tpqe284Kv9Igh13N6sAjsEJbhUh7vI7r3BBsyoCpynMeYf20ZE-Hhb1X4kQWzBHSV87ZApBVg8Hirl_n_wJZrLyybqczGQaUydUdyV6hTVqkvDAsXjc3m_K2LzIvMJuqkpkwX6-1s2Us-0GWfhT_ViCvX1X8je8IG69PgRwLZq99kJAOcpgvV09paFHsP9nClDLZRHKaOvjHqN1aDkTOs4eFl4-91Vy2HnbmOwNAVjD8vuLwHKwAAAAH28h54AA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -176,17 +176,17 @@ PING_IMG_URL = getenv(
 )
 
 PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL",
+    "https://graph.org/file/da71394f631b699fcb9d3-55283d87c41550c9dc.jpg",
     "assets/Playlist.jpeg",
 )
 
 GLOBAL_IMG_URL = getenv(
-    "GLOBAL_IMG_URL",
+    "https://graph.org/file/da71394f631b699fcb9d3-55283d87c41550c9dc.jpg",
     "assets/Global.jpeg",
 )
 
 STATS_IMG_URL = getenv(
-    "STATS_IMG_URL",
+    "https://graph.org/file/da71394f631b699fcb9d3-55283d87c41550c9dc.jpg",
     "assets/Stats.jpeg",
 )
 
